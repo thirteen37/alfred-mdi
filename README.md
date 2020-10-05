@@ -3,6 +3,12 @@
 [Alfred](https://www.alfredapp.com/) workflow to search for [Material Design
 Icons](https://material.io/resources/icons/).
 
+## Installation
+
+Download the `mdi.alfredworkflow` file from
+[Releases](https://github.com/thirteen37/alfred-mdi/releases) and open it in
+Alfred.
+
 ## Updating
 
 This script parses the filenames of icons included in the [Material Design Icons
