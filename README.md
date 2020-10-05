@@ -10,4 +10,11 @@ Github repo](https://github.com/google/material-design-icons). Specifically, it
 looks for icons that match the pattern `ic_*_48dp.png`.
 
 To update to the latest iconset, just replace the `material-design-icons`
-directory with a new copy.
+directory with a new copy:
+
+``` sh
+git fetch mdi master
+git subtree pull --prefix material-design-icons mdi master --squash
+```
+
+Assuming `mdi` is set to the Material Design repo.
